@@ -1,0 +1,22 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeezyhub/React-Portfolio.git"
+  },
+  "author": "yeezyhub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeezyhub/React-Portfolio/issues"
+  },
+  "homepage": "https://github.com/yeezyhub/React-Portfolio#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
