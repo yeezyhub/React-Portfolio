@@ -2,11 +2,12 @@ import React from 'react';
 import Footer from '../components/Footer.js';
 
 
-// REACT ROUTER ADD TO THE PROJECT
-
 export default function Home() {
-    return (
-        <Footer/>
-    )
-    
+  return (
+    // <Footer/>
+    <div>
+      <h1>This is the home page</h1>
+    </div>
+  )
+
 }

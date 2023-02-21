@@ -1,11 +1,17 @@
+import React from 'react';
+import { Routes, Route } from "react-router-dom";
+
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
-
-import Home from './pages/Home.js';
-
-import React from 'react';
 import Navigation from './components/Navigation.js';
+import Project from './components/Project.js';
 
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Resume from './pages/Resume.js';
+
+import background from "../src/assets/images/background.jpg";
 
 // const router = createBrowserRouter([
 //   {
@@ -16,14 +22,24 @@ import Navigation from './components/Navigation.js';
 
 function App() {
   return (
-    // <RouterProvider router={router}>
-    //   <div className="App">
-    //     <Header />
-    //   </div>
-    //   <Footer />
-    // </RouterProvider>
-    <Header />
-  );
+    <div className="App">
+      <Header />
+      <div style={{
+        backgroundImage: `url(${background})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover'
+    }}>
+        Hello World
+      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        {/* <Route path="project" element={<Project />} /> */}
+        <Route path="contact" element={<Contact />} />
+        <Route path="resume" element={<Resume />} />
+      </Routes>
+    </div>
+  )
 }
 
 export default App;
