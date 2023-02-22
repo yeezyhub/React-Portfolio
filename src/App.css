@@ -55,7 +55,7 @@ body {
 .about-me-text {
     position: absolute;
     top: 32%;
-    left: 34vw;
+    left: 32vw;
     margin: 0 6vw 0 2vw;
     text-align: justify;
 }
@@ -69,12 +69,24 @@ body {
     top: 95%;
 }
 
-.footer-el{
+.footer-el {
     margin: 0 1vw 0 1vw;
 }
 
-.icon{
+.icon {
     width: 32px;
     height: 32px;
     margin: 0 1vw 1vw 0;
+}
+
+.fixed-top {
+    position: absolute;
+}
+
+.carousel, .slide {
+    width: 25vw;
+    position: absolute;
+    /* justify-content: center; */
+    left: 37vw;
+    top: -40vw;
 }

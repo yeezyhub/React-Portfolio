@@ -11,11 +11,11 @@ export default function About() {
 
                 <div class='about-me-text'>
                     <p>
-                        Hello, my name is Yigit Ocak, and I am 25 years old. I am originally from Turkey, where I lived until July 2020. Since then, I have been living in the United States and I moved to Austin, TX starting April 2022.
+                        Hello, my name is Yigit Ocak, and I am 25 years old. I am originally from Turkey, where I lived until July 2020. Since then, I have been living in the United States and moved to Austin, TX starting April 2022.
                     </p>
 
                     <p>
-                        I studied electrical and electronics engineering at TED University and completed a mechatronics technician bootcamp at Vincennes University. More recently, I earned a certificate in web development from Michigan State University. During the web development bootcamp, I acquired a diverse skill set, which includes HTML, CSS, JavaScript, APIs, Node.js, OOP, Express.js, SQL, NoSQL, PWA, React, and MERN.
+                        I studied electrical and electronics engineering at TED University and completed a mechatronics technician boot camp at Vincennes University. More recently, I earned a certificate in web development from Michigan State University. During the web development boot camp, I acquired a diverse skill set, which includes HTML, CSS, JavaScript, APIs, Node.js, OOP, Express.js, SQL, NoSQL, PWA, React, and MERN.
                     </p>
 
                     <p>
