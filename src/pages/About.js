@@ -11,19 +11,19 @@ export default function About() {
 
                 <div class='about-me-text'>
                     <p>
-                        My name is Yigit Ocak. I am 25 years old and I am from Turkey. I lived in Turkey until July 2020 and now I currently live in Austin, TX in the United States.
+                        Hello, my name is Yigit Ocak, and I am 25 years old. I am originally from Turkey, where I lived until July 2020. Since then, I have been living in the United States and I moved to Austin, TX starting April 2022.
                     </p>
 
                     <p>
-                        I've studied electrical and electronics engineering in TED University, mechatronics technician bootcamp in Vincennes University and I recently earned a certificate for web developing bootcamp from Michigan State University. I have built broad knowledge in terms of web development during the bootcamp which includes; HTML, CSS, JavaScript, APIs, Node.js, OOP, Express.js, SQL, NoSQL, PWA, React and MERN.
+                        I studied electrical and electronics engineering at TED University and completed a mechatronics technician bootcamp at Vincennes University. More recently, I earned a certificate in web development from Michigan State University. During the web development bootcamp, I acquired a diverse skill set, which includes HTML, CSS, JavaScript, APIs, Node.js, OOP, Express.js, SQL, NoSQL, PWA, React, and MERN.
                     </p>
 
                     <p>
-                        I have some experience in the engineering field, but I work as a maintenance technician in Target since April 2022.
+                        Although I have some experience in the engineering field, I am currently working as a maintenance technician at Target, where I started in April 2022.
                     </p>
 
                     <p>
-                        On a normal day, I enjoy coding, joining social activities, playing video games, traveling, cooking, being creative such as making music and graphical designs etc.
+                        In my free time, I enjoy coding, participating in social activities, playing video games, traveling, cooking, and exploring my creative side by making music and designing graphical content, among other things.
                     </p>
                 </div>
             </div>
