@@ -13,12 +13,8 @@ import Resume from './pages/Resume.js';
 
 import background from "../src/assets/images/background.jpg";
 
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <Home />,
-//   }
-// ]);
+import 'bootstrap/dist/css/bootstrap.css';
+import './App.css';
 
 function App() {
   return (
@@ -27,14 +23,14 @@ function App() {
       <div style={{
         backgroundImage: `url(${background})`,
         backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover'
-    }}>
-        Hello World
+        backgroundSize: 'cover',
+        height: '100vh'
+      }}>
       </div>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="home" element={<Home />} />
         <Route path="about" element={<About />} />
-        {/* <Route path="project" element={<Project />} /> */}
+        {<Route path="project" element={<Project />} />}
         <Route path="contact" element={<Contact />} />
         <Route path="resume" element={<Resume />} />
       </Routes>
