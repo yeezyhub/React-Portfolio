@@ -8,6 +8,12 @@ body {
     background-color: black !important;
 }
 
+/* footer{
+    text-align: center;
+    position: absolute;
+    justify-content: center;
+} */
+
 .navbar-brand {
     border: 2px solid white;
     padding: 0.4vw 1vw 0.6vw 1vw;
@@ -16,10 +22,11 @@ body {
 .text-middle {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 42%;
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .section-header {
@@ -29,10 +36,11 @@ body {
 .hand-writing {
     font-family: 'Allura', cursive;
     padding-left: 1vw;
-    font-size: 4vw;
+    font-size: 6vw;
+    margin: 0;
 }
 
-.profile-photo{
+.profile-photo {
     width: 18vw;
     position: absolute;
     top: 32%;
@@ -40,14 +48,33 @@ body {
     border-radius: 15px;
 }
 
-.about-me-section{
+.about-me-section {
     display: flex;
 }
 
-.about-me-text{
+.about-me-text {
     position: absolute;
     top: 32%;
     left: 34vw;
     margin: 0 6vw 0 2vw;
     text-align: justify;
+}
+
+.footer-div {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    justify-content: center;
+    left: 37vw;
+    top: 95%;
+}
+
+.footer-el{
+    margin: 0 1vw 0 1vw;
+}
+
+.icon{
+    width: 32px;
+    height: 32px;
+    margin: 0 1vw 1vw 0;
 }
