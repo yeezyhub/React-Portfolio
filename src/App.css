@@ -83,10 +83,52 @@ body {
     position: absolute;
 }
 
-.carousel, .slide {
+.carousel {
     width: 25vw;
     position: absolute;
     /* justify-content: center; */
     left: 37vw;
     top: -40vw;
+}
+
+.carousel-inner{
+    border-radius: 15px;
+}
+
+.contact-container {
+    position: absolute;
+    width: 50vw !important;
+    left: 25vw;
+    top: 10vw;
+
+}
+
+.contact-text {
+    font-size: large;
+    text-align: center;
+}
+
+.email{
+    text-decoration: none;
+}
+
+.email:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.btn{
+    margin-left: 16vw;
+    margin-top: 3vw;
+    width: 15vw;
+    letter-spacing: .3rem;
+    font-weight: 200;
+    border-radius: 30px !important ;
+
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    color: black !important;
+    border: 2px solid black !important;
 }

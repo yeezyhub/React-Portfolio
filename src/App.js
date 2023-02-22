@@ -6,15 +6,16 @@ import Footer from './components/Footer.js';
 import Navigation from './components/Navigation.js';
 import Project from './components/Project.js';
 
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Home from "./pages/Home.js";
+import About from "./pages/About.js";
+import Contact from "./pages/Contact.js";
 import Resume from './pages/Resume.js';
 
 import background from "../src/assets/images/background.jpg";
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+
 
 function App() {
   return (
@@ -34,7 +35,6 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="resume" element={<Resume />} />
       </Routes>
-
     <Footer/>
 
     </div>
