@@ -1,10 +1,13 @@
 import React from 'react';
+import resume from '../assets/resume/yigit-bugra-ocak-resume.pdf';
 
 export default function Resume() {
     return (
         <div>
             <h1 class='text-middle section-header'>Resume</h1>
             <div className='horizontal-box-top'>
+                <h4>Front-End Skills</h4>
+
                 <div className='tag-div'>
                     <span className="tag">JavaScript</span>
                     <span className="tag">React</span>
@@ -21,6 +24,7 @@ export default function Resume() {
             </div>
             <div className='horizontal-box-bottom'>
                 <div className='tag-div'>
+                    <h4>Back-End Skills</h4>
                     <span className="tag">Node.js</span>
                     <span className="tag">Express.js</span>
                     <span className="tag">GraphQL</span>
@@ -33,7 +37,10 @@ export default function Resume() {
                     <span className="tag">Heroku</span>
                 </div>
             </div>
-            <button className="btn btn-light download-btn" type="submit">Download</button>
+            <a href={resume} download className="download">
+                Download Yigit Bugra Ocak - Resume
+                <button className="btn btn-light download-btn" type="submit">Download</button>
+            </a>
         </div>
     )
 

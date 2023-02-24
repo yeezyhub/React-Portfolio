@@ -1,4 +1,7 @@
 import React from 'react'
+import email from '../assets/images/email-icon.png';
+import phone from '../assets/images/phone-icon.png';
+
 
 export default function Contact() {
     const [formStatus, setFormStatus] = React.useState('Send')
@@ -18,7 +21,7 @@ export default function Contact() {
             <h1 class='text-middle section-header'>Contact</h1>
 
             <div className="container mt-5 contact-container">
-                <h2 className="contact-text">Reach out to me using this form or email to <a className="email" href="mailto:yigitbugraocak340@gmail.com">yigitbugraocak340@gmail.com</a> or call me from (804) 715-7004.</h2>
+                <h2 className="contact-text">Reach out to me using this contact form or <br/> <img src={email} alt="email-logo" width={23} height={15} /> <a className="email" href="mailto:yigitbugraocak340@gmail.com"> yigitbugraocak340@gmail.com</a> <br/> <img src={phone} alt="phone-logo" width={23} height={23} /> +1 (804) 715-7004</h2>
                 <form onSubmit={onSubmit}>
                     <div className="mb-3">
                         <label className="form-label" htmlFor="name">

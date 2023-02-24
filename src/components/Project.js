@@ -7,11 +7,6 @@ import passwordGenerator from "../assets/images/password-generator.jpg";
 import weatherDashboard from "../assets/images/weather-dashboard.jpg";
 
 
-
-
-
-
-
 export default function Project() {
     return (
         <div>
@@ -28,17 +23,8 @@ export default function Project() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <a href="https://powerful-ravine-90978.herokuapp.com/">
-                            <img src={rescuePets} className="d-block w-100 blur" alt="Rescue Pets" />
-                        </a>
-                        <div className="carousel-caption d-none d-md-block">
-                            <h5>Rescue Pets</h5>
-                            <p>Save pets finding them home.</p>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
                         <a href="https://travelniche.github.io/TravelNiche-App/">
-                            <img src={travelNiche} className="d-block w-100 blur" alt="Travel Niche" />
+                            <img src={travelNiche} className="d-block w-100 blur zoom" alt="Travel Niche" />
                         </a>
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Travel Niche</h5>
@@ -46,8 +32,17 @@ export default function Project() {
                         </div>
                     </div>
                     <div className="carousel-item">
+                        <a href="https://powerful-ravine-90978.herokuapp.com/">
+                            <img src={rescuePets} className="d-block w-100 blur zoom" alt="Rescue Pets" />
+                        </a>
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Rescue Pets</h5>
+                            <p>Save pets finding them home.</p>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
                         <a href="https://yeezyhub.github.io/JavaScript-Quiz/">
-                            <img src={javascriptQuiz} className="d-block w-100 blur" alt="Javascript Quiz" />
+                            <img src={javascriptQuiz} className="d-block w-100 blur zoom" alt="Javascript Quiz" />
                         </a>
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Javascript Quiz</h5>
@@ -56,7 +51,7 @@ export default function Project() {
                     </div>
                     <div className="carousel-item">
                         <a href="https://yeezyhub.github.io/Scheduler/">
-                            <img src={scheduler} className="d-block w-100 blur" alt="Scheduler" />
+                            <img src={scheduler} className="d-block w-100 blur zoom" alt="Scheduler" />
                         </a>
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Scheduler</h5>
@@ -65,7 +60,7 @@ export default function Project() {
                     </div>
                     <div className="carousel-item">
                         <a href="https://yeezyhub.github.io/Password-Generator/">
-                            <img src={passwordGenerator} className="d-block w-100 blur" alt="Password Generator" />
+                            <img src={passwordGenerator} className="d-block w-100 blur zoom" alt="Password Generator" />
                         </a>
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Password Generator</h5>
@@ -74,7 +69,7 @@ export default function Project() {
                     </div>
                     <div className="carousel-item">
                         <a href="https://yeezyhub.github.io/Weather-Dashboard/">
-                            <img src={weatherDashboard} className="d-block w-100 blur" alt="Weather Dashboard" />
+                            <img src={weatherDashboard} className="d-block w-100 blur zoom" alt="Weather Dashboard" />
                         </a>
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Weather Dashboard</h5>
