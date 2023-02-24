@@ -1,9 +1,21 @@
 import React from 'react';
+import rescuePets from "../assets/images/rescue-pets.jpg";
+import travelNiche from "../assets/images/travel-niche.jpg";
+import javascriptQuiz from "../assets/images/javascript-quiz.jpg";
+import scheduler from "../assets/images/scheduler.jpg";
+import passwordGenerator from "../assets/images/password-generator.jpg";
+import weatherDashboard from "../assets/images/weather-dashboard.jpg";
+
+
+
+
+
+
 
 export default function Project() {
     return (
         <div>
-            <h1 class='text-middle section-header'>Projects</h1>
+            <h1 className='text-middle section-header'>Projects</h1>
             <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -14,57 +26,69 @@ export default function Project() {
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
 
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src='https://picsum.photos/600/600' class="d-block w-100" alt="..." />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                        <a href="https://powerful-ravine-90978.herokuapp.com/">
+                            <img src={rescuePets} className="d-block w-100 blur" alt="Rescue Pets" />
+                        </a>
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Rescue Pets</h5>
+                            <p>Save pets finding them home.</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src='https://picsum.photos/601/601' class="d-block w-100" alt="..." />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                    <div className="carousel-item">
+                        <a href="https://travelniche.github.io/TravelNiche-App/">
+                            <img src={travelNiche} className="d-block w-100 blur" alt="Travel Niche" />
+                        </a>
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Travel Niche</h5>
+                            <p>Your favorite bar locator.</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src='https://picsum.photos/602/602' class="d-block w-100" alt="..." />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                    <div className="carousel-item">
+                        <a href="https://yeezyhub.github.io/JavaScript-Quiz/">
+                            <img src={javascriptQuiz} className="d-block w-100 blur" alt="Javascript Quiz" />
+                        </a>
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Javascript Quiz</h5>
+                            <p>Test your knowledge.</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src='https://picsum.photos/603/603' class="d-block w-100" alt="..." />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Fourth slide label</h5>
-                            <p>Some representative placeholder content for the fourth slide.</p>
+                    <div className="carousel-item">
+                        <a href="https://yeezyhub.github.io/Scheduler/">
+                            <img src={scheduler} className="d-block w-100 blur" alt="Scheduler" />
+                        </a>
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Scheduler</h5>
+                            <p>Never miss a task again.</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src='https://picsum.photos/604/604' class="d-block w-100" alt="..." />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Fifth slide label</h5>
-                            <p>Some representative placeholder content for the fifth slide.</p>
+                    <div className="carousel-item">
+                        <a href="https://yeezyhub.github.io/Password-Generator/">
+                            <img src={passwordGenerator} className="d-block w-100 blur" alt="Password Generator" />
+                        </a>
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Password Generator</h5>
+                            <p>Generate a strong password.</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src='https://picsum.photos/605/605' class="d-block w-100" alt="..." />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Sixth slide label</h5>
-                            <p>Some representative placeholder content for the sixth slide.</p>
+                    <div className="carousel-item">
+                        <a href="https://yeezyhub.github.io/Weather-Dashboard/">
+                            <img src={weatherDashboard} className="d-block w-100 blur" alt="Weather Dashboard" />
+                        </a>
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Weather Dashboard</h5>
+                            <p>Daily and 5-Day forecast.</p>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
                 </button>
             </div>
         </div>

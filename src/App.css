@@ -91,7 +91,7 @@ body {
     top: -40vw;
 }
 
-.carousel-inner{
+.carousel-inner {
     border-radius: 15px;
 }
 
@@ -108,27 +108,121 @@ body {
     text-align: center;
 }
 
-.email{
+.email {
     text-decoration: none;
 }
 
-.email:hover{
+.email:hover {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.75) !important;
 }
 
-.btn{
+.btn {
     margin-left: 16vw;
     margin-top: 3vw;
     width: 15vw;
     letter-spacing: .3rem;
     font-weight: 200;
-    border-radius: 30px !important ;
+    border-radius: 30px !important;
 
 }
 
-.btn:hover{
+.btn:hover {
     background-color: rgba(255, 255, 255, 0.5) !important;
     color: black !important;
     border: 2px solid black !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-caption,
+.carousel-indicators {
+    filter: invert(100%);
+}
+
+h5 {
+    font-size: large !important;
+    font-weight: bolder !important;
+}
+
+.blur {
+    filter: blur(1.5px);
+    transition: .5s
+}
+
+.blur:hover {
+    filter: none;
+    transition: .5s
+}
+
+.horizontal-box-top {
+    width: 100px;
+    height: 100px;
+
+    background:
+        linear-gradient(to right, white 4px, transparent 4px) 0 0,
+        linear-gradient(to right, white 4px, transparent 4px) 0 100%,
+        linear-gradient(to left, white 4px, transparent 4px) 100% 0,
+        linear-gradient(to left, white 4px, transparent 4px) 100% 100%,
+        linear-gradient(to bottom, white 4px, transparent 4px) 0 0,
+        linear-gradient(to bottom, white 4px, transparent 4px) 100% 0,
+        linear-gradient(to top, white 4px, transparent 4px) 0 100%,
+        linear-gradient(to top, white 4px, transparent 4px) 100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+
+    position: absolute;
+    width: 50vw !important;
+    left: 25vw;
+    top: 16vw;
+    text-align: center;
+
+}
+
+.horizontal-box-bottom {
+    width: 100px;
+    height: 100px;
+
+    background:
+        linear-gradient(to right, white 4px, transparent 4px) 0 0,
+        linear-gradient(to right, white 4px, transparent 4px) 0 100%,
+        linear-gradient(to left, white 4px, transparent 4px) 100% 0,
+        linear-gradient(to left, white 4px, transparent 4px) 100% 100%,
+        linear-gradient(to bottom, white 4px, transparent 4px) 0 0,
+        linear-gradient(to bottom, white 4px, transparent 4px) 100% 0,
+        linear-gradient(to top, white 4px, transparent 4px) 0 100%,
+        linear-gradient(to top, white 4px, transparent 4px) 100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+
+    position: absolute;
+    width: 50vw !important;
+    left: 25vw;
+    top: 28vw;
+    text-align: center;
+
+}
+
+.tag {
+    display: inline-block;
+    color: white;
+    font-size: 13px;
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    margin: 0 6px 6px 0;
+    letter-spacing: 1px;
+    background: rgb(88, 87, 87);
+    background: linear-gradient(45deg, rgba(74, 74, 74, 0.505) 49%, rgba(219, 219, 219, 0.505) 100%);
+}
+
+.tag-div {
+    margin-top: 1vw;
+}
+
+.download-btn {
+    position: absolute;
+    left: 26vw;
+    top: 37vw;
 }

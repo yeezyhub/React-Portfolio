@@ -6,14 +6,14 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
-        <div class='footer-div'>
-            <footer class='footer-el'>Made with &#x1F90D; by yeezyhub</footer>
+        <div className='footer-div'>
+            <footer className='footer-el'>Made with &#x1F90D; by yeezyhub</footer>
             <Link to="https://github.com/yeezyhub" target="_blank">
-                <img class='icon' src={githubLogo} alt="GitHub Logo" />
+                <img className='icon' src={githubLogo} alt="GitHub Logo" />
             </Link>
 
             <Link to="https://www.linkedin.com/in/yigitbugraocak/" target="_blank">
-                <img class='icon' src={linkedInLogo} alt="LinkedIn Logo" />
+                <img className='icon' src={linkedInLogo} alt="LinkedIn Logo" />
             </Link>
         </div>
     )
