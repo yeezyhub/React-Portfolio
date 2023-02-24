@@ -101,6 +101,7 @@ body {
 .contact-text {
     font-size: large;
     text-align: center;
+    line-height: 2.3vw !important;
 }
 
 .email {
@@ -115,7 +116,7 @@ body {
 
 .btn {
     margin-left: 16vw;
-    margin-top: 2vw;
+    margin-right: 11vw;
     width: 15vw;
     letter-spacing: .3rem;
     font-weight: 200;
@@ -258,4 +259,16 @@ h4 {
 
 .form-control{
     border-radius: 15px !important;
+}
+
+.required{
+    text-align: center;
+    font-style: italic;
+}
+
+.container-required{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 2vw;
 }
