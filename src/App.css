@@ -309,3 +309,13 @@ h4 {
 .invert{
     filter: invert(1);
 }
+
+footer{
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+      background-color: lightblue;
+    }
+  }
