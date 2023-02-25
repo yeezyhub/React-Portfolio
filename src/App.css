@@ -232,6 +232,8 @@ h4 {
 
 .nav-link.active {
     transition: .5s;
+    --bs-navbar-active-color: rgb(255, 255, 255);
+
 }
 
 .zoom-footer {
@@ -257,18 +259,53 @@ h4 {
     transition: .5s;
 }
 
-.form-control{
+.form-control {
     border-radius: 15px !important;
 }
 
-.required{
+.required {
     text-align: center;
     font-style: italic;
 }
 
-.container-required{
+.container-required {
     display: flex;
     align-items: center;
     justify-content: right;
     margin-top: 2vw;
+}
+
+.error-text {
+    text-align: center;
+    margin-top: .5vw;
+}
+
+.sent-text {
+    text-align: center;
+    margin-top: .5vw;
+}
+
+.modal {
+    color: black;
+}
+
+.modal-footer {
+    justify-content: center !important;
+}
+
+.modal-dialog {
+    top: 15vw !important;
+}
+
+.project-title-div {
+    display: flex;
+    justify-content: center;
+}
+
+.project-title-icon{
+    margin-left: .5vw;
+}
+
+.invert{
+    filter: invert(1);
 }
