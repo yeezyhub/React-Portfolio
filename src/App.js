@@ -16,7 +16,6 @@ import background from "../src/assets/images/background.jpg";
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
-
 function App() {
   return (
     <div className="App">
@@ -36,7 +35,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="resume" element={<Resume />} />
       </Routes>
-    <Footer/>
+      <Footer />
 
     </div>
   )
