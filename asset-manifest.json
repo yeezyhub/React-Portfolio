@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-Portfolioo/static/css/main.5b7015fc.css",
+    "main.js": "/React-Portfolioo/static/js/main.d3c178fc.js",
+    "static/media/profile-photo.jpg": "/React-Portfolioo/static/media/profile-photo.fbcf46648104ac1f0062.jpg",
+    "static/media/background.jpg": "/React-Portfolioo/static/media/background.b89b1d552971531a84d7.jpg",
+    "static/media/travel-niche.jpg": "/React-Portfolioo/static/media/travel-niche.22fb7ef3dc1ef4e99b5a.jpg",
+    "static/media/weather-dashboard.jpg": "/React-Portfolioo/static/media/weather-dashboard.260c86b40a9027b26dc1.jpg",
+    "static/media/rescue-pets.jpg": "/React-Portfolioo/static/media/rescue-pets.d01a604c67bbec5025f3.jpg",
+    "static/media/password-generator.jpg": "/React-Portfolioo/static/media/password-generator.a5340f1bee9a61a723cd.jpg",
+    "static/media/javascript-quiz.jpg": "/React-Portfolioo/static/media/javascript-quiz.8b3f3cb9f7d8cb3ffd00.jpg",
+    "static/media/scheduler.jpg": "/React-Portfolioo/static/media/scheduler.660b46067b3c51376638.jpg",
+    "static/media/yigit-bugra-ocak-resume.pdf": "/React-Portfolioo/static/media/yigit-bugra-ocak-resume.384bf9b409ee87931705.pdf",
+    "static/media/github-logo.png": "/React-Portfolioo/static/media/github-logo.a5db7b9c174cbca7e341.png",
+    "static/media/linkedin-logo.png": "/React-Portfolioo/static/media/linkedin-logo.9e038773f5fee7cf1b48.png",
+    "static/media/email-icon.png": "/React-Portfolioo/static/media/email-icon.ad8ffe5b3a71bb4eb783.png",
+    "static/media/stack-overflow-logo.png": "/React-Portfolioo/static/media/stack-overflow-logo.2b57c63669410bce761f.png",
+    "index.html": "/React-Portfolioo/index.html",
+    "main.5b7015fc.css.map": "/React-Portfolioo/static/css/main.5b7015fc.css.map",
+    "main.d3c178fc.js.map": "/React-Portfolioo/static/js/main.d3c178fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b7015fc.css",
+    "static/js/main.d3c178fc.js"
+  ]
+}
