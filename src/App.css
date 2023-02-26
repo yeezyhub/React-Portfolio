@@ -8,7 +8,7 @@ body {
     background-color: black !important;
 }
 
-.navbar-brand {
+.navbar-brand, .navbar-toggler {
     border: 2px solid white;
     padding: 0.4vw 1vw 0.6vw 1vw;
     transition: .5s;
@@ -60,8 +60,9 @@ body {
     text-align: center;
     position: absolute;
     justify-content: center;
-    left: 37vw;
+    /* left: 37vw; */
     top: 94%;
+    width: 100%;
 }
 
 .footer-el {
@@ -254,7 +255,7 @@ h4 {
     transition: .5s;
 }
 
-.navbar-brand:hover {
+.navbar-brand:hover, .navbar-toggler:hover {
     transform: scale(1.05);
     transition: .5s;
 }
@@ -302,20 +303,79 @@ h4 {
     justify-content: center;
 }
 
-.project-title-icon{
+.project-title-icon {
     margin-left: .5vw;
 }
 
-.invert{
+.invert {
     filter: invert(1);
 }
 
-footer{
-    
+.footer {
+    display: flex;
+    justify-content: center;
 }
 
-@media only screen and (max-width: 1200px) {
-    body {
-      background-color: lightblue;
+.project-div {
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 1300px) {
+    .carousel-inner {}
+
+    .carousel {
+        position: relative;
+        top: -50vw;
+        left: 38vw;
     }
-  }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .carousel-caption {
+        height: 20vw;
+    }
+
+    .carousel {
+        position: relative;
+        top: -50vw;
+        left: 38vw;
+    }
+
+    .section-header {
+        top: 33%;
+    }
+
+    .container-fluid{
+        justify-content: center !important;
+    }
+
+    .nav-link{
+        text-align: center;
+    }
+
+    .hand-writing{
+        font-size: 7vw;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .navbar-brand{
+        margin: 2vw 0 0 2vw;
+    }
+
+    .hand-writing{
+        font-size: 10vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .navbar-brand{
+        margin: 2vw 0 0 2vw;
+    }
+
+    .hand-writing{
+        font-size: 12vw;
+    }
+}
+

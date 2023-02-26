@@ -11,7 +11,7 @@ import About from "./pages/About.js";
 import Contact from "./pages/Contact.js";
 import Resume from './pages/Resume.js';
 
-import background from "../src/assets/images/background.jpg";
+import background from "./assets/images/background.jpg";
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';

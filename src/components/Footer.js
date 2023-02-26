@@ -7,20 +7,22 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
-        <div className='footer-div'>
-            <footer className='footer-el'>Made with &#x1F90D; by yeezyhub</footer>
-            <Link to="https://github.com/yeezyhub" target="_blank">
-                <img className='icon zoom-footer' src={githubLogo} alt="GitHub Logo" />
-            </Link>
+        <div className='footer'>
+            <div className='footer-div'>
+                <footer className='footer-el'>Made with &#x1F90D; by yeezyhub</footer>
+                <Link to="https://github.com/yeezyhub" target="_blank">
+                    <img className='icon zoom-footer' src={githubLogo} alt="GitHub Logo" />
+                </Link>
 
-            <Link to="https://www.linkedin.com/in/yigitbugraocak/" target="_blank">
-                <img className='icon zoom-footer' src={linkedInLogo} alt="LinkedIn Logo" />
-            </Link>
+                <Link to="https://www.linkedin.com/in/yigitbugraocak/" target="_blank">
+                    <img className='icon zoom-footer' src={linkedInLogo} alt="LinkedIn Logo" />
+                </Link>
 
-            <Link to="https://stackoverflow.com/users/7948307/yeezyhub" target="_blank">
-                <img className='icon zoom-footer invert' src={stackOverflowLogo} alt="Stack Overflow Logo" />
-            </Link>
+                <Link to="https://stackoverflow.com/users/7948307/yeezyhub" target="_blank">
+                    <img className='icon zoom-footer invert' src={stackOverflowLogo} alt="Stack Overflow Logo" />
+                </Link>
 
+            </div>
         </div>
     )
 }
