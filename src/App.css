@@ -8,7 +8,8 @@ body {
     background-color: black !important;
 }
 
-.navbar-brand, .navbar-toggler {
+.navbar-brand,
+.navbar-toggler {
     border: 2px solid white;
     padding: 0.4vw 1vw 0.6vw 1vw;
     transition: .5s;
@@ -255,7 +256,8 @@ h4 {
     transition: .5s;
 }
 
-.navbar-brand:hover, .navbar-toggler:hover {
+.navbar-brand:hover,
+.navbar-toggler:hover {
     transform: scale(1.05);
     transition: .5s;
 }
@@ -330,6 +332,24 @@ h4 {
     }
 }
 
+@media only screen and (max-width: 1108px) {
+    .footer-div {
+        top: 105%;
+    }
+
+    .carousel{
+        width: 35vw;
+        left: 33vw;
+    }
+
+    .contact-text {
+        line-height: 2.8vw !important;
+    }
+
+    .section-header {
+        top: 12%;
+    }
+}
 
 @media only screen and (max-width: 992px) {
     .carousel-caption {
@@ -339,43 +359,109 @@ h4 {
     .carousel {
         position: relative;
         top: -50vw;
-        left: 38vw;
+        left: 33vw;
     }
 
     .section-header {
         top: 33%;
     }
 
-    .container-fluid{
-        justify-content: center !important;
+    .nav-link {
+        text-align: right;
     }
 
-    .nav-link{
-        text-align: center;
-    }
-
-    .hand-writing{
+    .hand-writing {
         font-size: 7vw;
     }
+
+    .section-header {
+        top: 12%;
+    }
+
+    .nav-item {
+        margin-right: 2vw;
+    }
+
+    .contact-text {
+        line-height: 3.3vw !important;
+    }
 }
+
+@media only screen and (max-width: 920px) {
+    .footer-div {
+        top: 115%;
+    }
+    .carousel {
+       top: -60vw;
+    }
+
+    .section-header {
+        top: 11%;
+    }
+
+    .contact-text {
+        line-height: 3.5vw !important;
+    }
+
+}
+
 
 @media only screen and (max-width: 769px) {
-    .navbar-brand{
+    .navbar-brand {
         margin: 2vw 0 0 2vw;
     }
 
-    .hand-writing{
+    .hand-writing {
         font-size: 10vw;
     }
+
+    .footer-div {
+        top: 135%;
+    }
+
+    .contact-text {
+        line-height: 3.8vw !important;
+    }
+
+    .section-header {
+        top: 9%;
+    }
 }
 
+@media only screen and (max-width: 600px) {
+    .footer-div {
+        top: 165%;
+    }
+
+    .contact-text {
+        line-height: 4.2vw !important;
+    }
+
+    .section-header {
+        top: 7%;
+    }
+
+    .btn {
+        letter-spacing: 0rem;    
+    }
+}
+
+
+
 @media only screen and (max-width: 500px) {
-    .navbar-brand{
+    .navbar-brand {
         margin: 2vw 0 0 2vw;
     }
 
-    .hand-writing{
+    .hand-writing {
         font-size: 12vw;
     }
-}
 
+    .contact-text {
+        line-height: 6.7vw !important;
+    }
+
+    .section-header {
+        top: 7%;
+    }
+}

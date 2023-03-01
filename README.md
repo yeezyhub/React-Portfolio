@@ -4,6 +4,9 @@
 
 [yeezyhub - React Portfolio](https://yeezyhub.github.io/React-Portfolio/)
 
+![yeezyhub - React Portfolio Home Page](./src/assets/images/react-portfolio-homepage.jpg)
+
+
 # Social-Network-API
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -11,7 +14,7 @@
 
   Having a portfolio of coding projects is a great way to showcase skills and experience to potential employers during the interview process. A portfolio provides tangible evidence of coding abilities. Then, having a portfolio can help stand out from other candidates and give a competitive edge in the job market.
 
-  Because of that reason, I wanted to create my own portfolio using the knowledge I learned throughout the whole 6 months of boot camp. This project is created with React which is visually more appealing and more responsive compared to other front-end interfaces. Using a popular front-end library used by companies and organizations such as React, is going to help me in terms of the experience.
+  Because of that reason, I wanted to create my own portfolio using the knowledge I learned throughout the whole 6 months of boot camp. This project is created with Bootstrap and React which is visually more appealing and more responsive compared to other front-end interfaces and deployed using GitHub pages npm package works with React. Routing is done using React Router which simplifies to implement the routing for the website when using React. Using a popular front-end library used by companies and organizations such as React, is going to help me in terms of the experience.
 
   The app has the About Me, Projects, Contact Me and Resume navigation links makes it easy to navigate on the website.
 
