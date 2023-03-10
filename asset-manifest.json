@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.eb4ebef3.css",
-    "main.js": "/React-Portfolio/static/js/main.675c8fbc.js",
+    "main.js": "/React-Portfolio/static/js/main.cc4fa34c.js",
     "static/media/profile-photo.jpg": "/React-Portfolio/static/media/profile-photo.fbcf46648104ac1f0062.jpg",
     "static/media/background.jpg": "/React-Portfolio/static/media/background.b89b1d552971531a84d7.jpg",
     "static/media/travel-niche.jpg": "/React-Portfolio/static/media/travel-niche.22fb7ef3dc1ef4e99b5a.jpg",
+    "static/media/squeezy.jpg": "/React-Portfolio/static/media/squeezy.88672bc6c0afc1d33435.jpg",
     "static/media/weather-dashboard.jpg": "/React-Portfolio/static/media/weather-dashboard.260c86b40a9027b26dc1.jpg",
     "static/media/rescue-pets.jpg": "/React-Portfolio/static/media/rescue-pets.d01a604c67bbec5025f3.jpg",
-    "static/media/password-generator.jpg": "/React-Portfolio/static/media/password-generator.a5340f1bee9a61a723cd.jpg",
     "static/media/javascript-quiz.jpg": "/React-Portfolio/static/media/javascript-quiz.8b3f3cb9f7d8cb3ffd00.jpg",
     "static/media/scheduler.jpg": "/React-Portfolio/static/media/scheduler.660b46067b3c51376638.jpg",
     "static/media/yigit-bugra-ocak-resume.pdf": "/React-Portfolio/static/media/yigit-bugra-ocak-resume.384bf9b409ee87931705.pdf",
@@ -17,10 +17,10 @@
     "static/media/stack-overflow-logo.png": "/React-Portfolio/static/media/stack-overflow-logo.2b57c63669410bce761f.png",
     "index.html": "/React-Portfolio/index.html",
     "main.eb4ebef3.css.map": "/React-Portfolio/static/css/main.eb4ebef3.css.map",
-    "main.675c8fbc.js.map": "/React-Portfolio/static/js/main.675c8fbc.js.map"
+    "main.cc4fa34c.js.map": "/React-Portfolio/static/js/main.cc4fa34c.js.map"
   },
   "entrypoints": [
     "static/css/main.eb4ebef3.css",
-    "static/js/main.675c8fbc.js"
+    "static/js/main.cc4fa34c.js"
   ]
 }
