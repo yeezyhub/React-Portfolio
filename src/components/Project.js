@@ -5,7 +5,7 @@ import rescuePets from "../assets/images/rescue-pets.jpg";
 import travelNiche from "../assets/images/travel-niche.jpg";
 import javascriptQuiz from "../assets/images/javascript-quiz.jpg";
 import scheduler from "../assets/images/scheduler.jpg";
-import passwordGenerator from "../assets/images/password-generator.jpg";
+import squeezy from "../assets/images/squeezy.jpg";
 import weatherDashboard from "../assets/images/weather-dashboard.jpg";
 import githubLogo from "../assets/images/github-logo.png";
 
@@ -26,7 +26,21 @@ export default function Project() {
 
                 </div>
                 <div className="carousel-inner">
-                    <div className="carousel-item active">
+                <div className="carousel-item active">
+                        <Link to="https://squeezy-citrus.herokuapp.com/" target="_blank">
+                            <img src={squeezy} className="d-block w-100 blur zoom" alt="Squeezy" />
+                        </Link>
+                        <div className="carousel-caption d-none d-md-block">
+                            <div className='project-title-div'>
+                                <Link to="https://github.com/Bootcamp-Buddies/Squeezy" target="_blank">
+                                    <img className='icon zoom-footer project-title-icon' src={githubLogo} alt="GitHub Logo" />
+                                </Link>
+                            </div>
+                            <h5>Squeezy</h5>
+                            <p>Tangy and sour flavors.</p>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
                         <Link to="https://travelniche.github.io/TravelNiche-App/" target="_blank">
                             <img src={travelNiche} className="d-block w-100 blur zoom" alt="Travel Niche" />
                         </Link>
@@ -80,20 +94,6 @@ export default function Project() {
                             </div>
                             <h5>Scheduler</h5>
                             <p>Never miss a task again.</p>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                        <Link to="https://yeezyhub.github.io/Password-Generator/" target="_blank">
-                            <img src={passwordGenerator} className="d-block w-100 blur zoom" alt="Password Generator" />
-                        </Link>
-                        <div className="carousel-caption d-none d-md-block">
-                            <div className='project-title-div'>
-                                <Link to="https://github.com/yeezyhub/Password-Generator" target="_blank">
-                                    <img className='icon zoom-footer project-title-icon' src={githubLogo} alt="GitHub Logo" />
-                                </Link>
-                            </div>
-                            <h5>Password Generator</h5>
-                            <p>Generate a strong password.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
