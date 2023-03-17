@@ -9,7 +9,6 @@ export default function Footer() {
     return (
         <div className='footer'>
             <div className='footer-div'>
-                <footer className='footer-el'>Made with &#x1F90D; by yeezyhub</footer>
                 <Link to="https://github.com/yeezyhub" target="_blank">
                     <img className='icon zoom-footer' src={githubLogo} alt="GitHub Logo" />
                 </Link>
@@ -21,6 +20,8 @@ export default function Footer() {
                 <Link to="https://stackoverflow.com/users/7948307/yeezyhub" target="_blank">
                     <img className='icon zoom-footer invert' src={stackOverflowLogo} alt="Stack Overflow Logo" />
                 </Link>
+
+                <footer className='footer-el'>Made with &#x1F90D; by yeezyhub</footer>
 
             </div>
         </div>

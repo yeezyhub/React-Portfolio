@@ -62,7 +62,7 @@ body {
     position: absolute;
     justify-content: center;
     /* left: 37vw; */
-    top: 94%;
+    top: 92%;
     width: 100%;
 }
 
@@ -322,7 +322,7 @@ h4 {
     flex-direction: row;
 }
 
-@media only screen and (max-width: 1300px) {
+/* @media only screen and (max-width: 1300px) {
     .carousel-inner {}
 
     .carousel {
@@ -464,4 +464,143 @@ h4 {
     .section-header {
         top: 7%;
     }
+} */
+
+@media only screen and (max-width: 390px) {
+    .container-fluid {
+        justify-content: center !important;
+        background-color: black;
+        padding: 5vw;
+        border-bottom: white .1px solid;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
+
+    .navbar-collapse {
+        text-align: -webkit-center;
+        background-color: #000000d9;
+        border-right: white 3px solid;
+        border-left: white 3px solid;
+        margin: 5vw 15vw 0 15vw;
+        border-radius: 15px;
+        padding: 0 5vw 0 5vw;
+    }
+
+    .hand-writing {
+        padding-left: 2vw;
+        font-size: 15vw;
+    }
+
+    .footer-el {
+        margin-right: 3vw;
+    }
+
+
+    .nav-link {
+        border-bottom: white .1px solid;
+        width: 70%;
+        color: white !important;
+        letter-spacing: .8vw;
+    }
+
+    #first-nav-link {
+        padding-top: 0;
+    }
+
+    #last-nav-link {
+        border: none;
+        padding-bottom: 0;
+    }
+
+    .text-middle {
+        top: 45%;
+    }
+
+    .navbar {
+        padding-top: 0 !important;
+    }
+
+    .navbar-toggler {
+        border: white 1px solid !important;
+    }
+
+    .section-header {
+        top: 17%;
+        margin-bottom: 0;
+    }
+
+    .about-me-section {
+        position: absolute;
+        top: 27%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        box-sizing: border-box;
+        margin: 0 10vw 10vw 10vw;
+    }
+
+    .about-me-text {
+        position: relative;
+        left: auto;
+        margin: 0 2vw 5vw 2vw;
+    }
+
+    .profile-photo {
+        position: relative;
+        width: 50%;
+        left: auto;
+        margin-bottom: 10vw;
+    }
+
+    .navbar-brand {
+        padding: 2.5vw;
+    }
+
+    .bg-about,
+    .bg-project {
+        background-size: contain !important;
+    }
+
+    .footer-div {
+        /* top: 100%; */
+        width: max-content;
+        /* margin: 5vw; */
+        position: relative;
+        display: block;
+        left: 31%;
+    }
+
+    .footer-el {
+        margin: 0 0 3vw 0;
+    }
+
+    .icon {
+        margin: 0 2vw 2vw 2vw;
+    }
+
+    .home-footer {
+        position: absolute;
+        top: 86%;
+        left: 0%;
+    }
+
+    .about-footer {
+        position: relative;
+        left: -24% !important;
+    }
+
+    #carouselExampleCaptions {
+        position: absolute;
+        top: 30%;
+        width: auto;
+        left: auto;
+        margin: 0 10vw 10vw 10vw;
+    }
+
+    .carousel-caption, .d-none, .d-md-block{
+        display: contents;
+    }
+
 }

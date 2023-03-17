@@ -11,22 +11,16 @@ import About from "./pages/About.js";
 import Contact from "./pages/Contact.js";
 import Resume from './pages/Resume.js';
 
-import background from "./assets/images/background.jpg";
+// import background from "./assets/images/background.jpg";
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
 function App() {
+  
   return (
     <div className="App">
       <Header />
-      <div style={{
-        backgroundImage: `url(${background})`,
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
-        height: '100vh'
-      }}>
-      </div>
       <Routes>
         <Route path="home" element={<Home />} />
         <Route path="" element={<Home />} />
@@ -36,7 +30,6 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="resume" element={<Resume />} />
       </Routes>
-      <Footer />
 
     </div>
   )

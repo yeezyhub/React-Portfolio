@@ -1,9 +1,21 @@
 import React from 'react';
 import resume from '../assets/resume/yigit-bugra-ocak-resume.pdf';
+import background from "../assets/images/background.jpg";
+
 
 export default function Resume() {
     return (
         <div>
+
+            {/* Background Image */}
+            <div className='bg-resume' style={{
+                backgroundImage: `url(${background})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
+                height: '100vh'
+            }}>
+            </div>
+
             <h1 class='text-middle section-header'>Resume</h1>
             <div className='horizontal-box-top'>
                 <h4>Front-End Skills</h4>

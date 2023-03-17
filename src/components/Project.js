@@ -8,12 +8,23 @@ import scheduler from "../assets/images/scheduler.jpg";
 import squeezy from "../assets/images/squeezy.jpg";
 import weatherDashboard from "../assets/images/weather-dashboard.jpg";
 import githubLogo from "../assets/images/github-logo.png";
+import background from "../assets/images/background.jpg";
 
 
 
 export default function Project() {
     return (
         <div>
+
+            {/* Background Image */}
+            <div className='bg-project' style={{
+                backgroundImage: `url(${background})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
+                height: '100vh'
+            }}>
+            </div>
+
             <h1 className='text-middle section-header'>Projects</h1>
             <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -26,7 +37,7 @@ export default function Project() {
 
                 </div>
                 <div className="carousel-inner">
-                <div className="carousel-item active">
+                    <div className="carousel-item active">
                         <Link to="https://squeezy-citrus.herokuapp.com/" target="_blank">
                             <img src={squeezy} className="d-block w-100 blur zoom" alt="Squeezy" />
                         </Link>

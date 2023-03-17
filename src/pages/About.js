@@ -1,12 +1,25 @@
 import React from 'react';
 import ProfilePhoto from "../assets/images/profile-photo.jpg";
+import background from "../assets/images/background.jpg";
+import Footer from '../components/Footer';
+
 
 export default function About() {
     return (
         <div>
-            <h1 class='text-middle section-header'>About Me</h1>
-            <div class='about-me-section'>
 
+            {/* Background Image */}
+            <div className='bg-about' style={{
+                backgroundImage: `url(${background})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
+                height: '100vh'
+            }}>
+            </div>
+
+            <h1 class='text-middle section-header'>About Me</h1>
+
+            <div class='about-me-section'>
                 <img src={ProfilePhoto} alt="profile" className="profile-photo" />
 
                 <div class='about-me-text'>
@@ -25,6 +38,9 @@ export default function About() {
                     <p>
                         In my free time, I enjoy coding, participating in social activities, playing video games, traveling, cooking, and exploring my creative side by making music and designing graphical content, among other things.
                     </p>
+                </div>
+                <div className='about-footer'>
+                    <Footer />
                 </div>
             </div>
         </div>

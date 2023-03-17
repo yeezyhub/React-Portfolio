@@ -4,6 +4,8 @@ import phoneIcon from '../assets/images/phone-icon.png';
 // import errorIcon from '../assets/images/error-icon.png';
 import checkmarkIcon from '../assets/images/checkmark-icon.png';
 import $ from 'jquery';
+import background from "../assets/images/background.jpg";
+
 
 
 
@@ -30,8 +32,8 @@ export default function Contact() {
         } else {
             setMessage(inputValue);
         }
-   
-       
+
+
     }
 
 
@@ -71,6 +73,16 @@ export default function Contact() {
 
     return (
         <div>
+
+            {/* Background Image */}
+            <div className="bg-contact" style={{
+                backgroundImage: `url(${background})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
+                height: '100vh'
+            }}>
+            </div>
+
             <h1 class='text-middle section-header'>Contact</h1>
 
             <div className="container mt-5 contact-container">
