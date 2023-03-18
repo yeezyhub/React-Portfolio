@@ -5,8 +5,7 @@ import phoneIcon from '../assets/images/phone-icon.png';
 import checkmarkIcon from '../assets/images/checkmark-icon.png';
 import $ from 'jquery';
 import background from "../assets/images/background.jpg";
-
-
+import Footer from '../components/Footer';
 
 
 import { validateEmail } from "../utils/helpers.js";
@@ -86,10 +85,10 @@ export default function Contact() {
             <h1 class='text-middle section-header'>Contact</h1>
 
             <div className="container mt-5 contact-container">
-                <h2 className="contact-text">Reach out to me using this contact form or <br /> <img src={emailIcon} alt="email-logo" width={23} height={15} /> <a className="email" href="mailto:yigitbugraocak340@gmail.com"> yigitbugraocak340@gmail.com</a> <br /> <img src={phoneIcon} alt="phone-logo" width={23} height={23} /> +1 (804) 715-7004</h2>
+                <h2 className="contact-text">Reach out to me using this contact form or <br /> <div className="email-div"><img src={emailIcon} alt="email-logo" width={23} height={15} /> <a className="email" href="mailto:yigitbugraocak340@gmail.com"> yigitbugraocak340@gmail.com</a> </div> <div className="phone-div"> <img className="phone" src={phoneIcon} alt="phone-logo" width={23} height={23} /> &nbsp; +1 (804) 715-7004 </div> </h2> 
                 <form className="form" >
                     {/* Name */}
-                    <div className="mb-3">
+                    <div>
                         <label className="form-label" htmlFor="name">Name</label>
                         <input
                             className="form-control"
@@ -102,7 +101,7 @@ export default function Contact() {
                     </div>
 
                     {/* Email */}
-                    <div className="mb-3">
+                    <div>
                         <label className="form-label" htmlFor="email">Email</label>
                         <input
                             className="form-control"
@@ -115,7 +114,7 @@ export default function Contact() {
                     </div>
 
                     {/* Message  */}
-                    <div className="mb-3">
+                    <div>
                         <label className="form-label" htmlFor="message">Message</label>
                         <textarea
                             className="form-control"
@@ -184,6 +183,9 @@ export default function Contact() {
                         </div>
                     )}
                 </form>
+            </div>
+            <div className="contact-footer">
+                <Footer />
             </div>
         </div>
 

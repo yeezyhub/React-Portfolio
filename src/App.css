@@ -62,12 +62,13 @@ body {
     position: absolute;
     justify-content: center;
     /* left: 37vw; */
-    top: 92%;
-    width: 100%;
+    top: 94%;
+    /* width: 100%; */
+    width: max-content;
 }
 
 .footer-el {
-    margin: 0 1vw 0 1vw;
+    margin: 0 1vw 0 0;
 }
 
 .icon {
@@ -116,9 +117,12 @@ body {
     transition: .3s;
 }
 
-.btn {
-    margin-left: 16vw;
-    margin-right: 11vw;
+.send{
+    text-align: center;
+}
+
+.btn, .btn-light {
+    margin: 2vw 10vw 5vw 10vw !important;
     width: 15vw;
     letter-spacing: .3rem;
     font-weight: 200;
@@ -266,6 +270,16 @@ h4 {
     border-radius: 15px !important;
 }
 
+.form-label{
+    margin: 1vw 0 1vw 1vw !important;
+}
+
+.about-footer{
+   position: absolute;
+   left: 26.6%;
+   top: 126.1%;
+}
+
 .required {
     text-align: center;
     font-style: italic;
@@ -325,7 +339,7 @@ h4 {
 @media only screen and (max-width: 390px) {
     .container-fluid {
         justify-content: center !important;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.9);
         padding: 5vw;
         border-bottom: white .1px solid;
         border-bottom-left-radius: 10px;
@@ -335,7 +349,7 @@ h4 {
 
     .navbar-collapse {
         text-align: -webkit-center;
-        background-color: #000000d9;
+        background-color: rgba(0, 0, 0, 0.01);
         border-right: white 3px solid;
         border-left: white 3px solid;
         margin: 5vw 15vw 0 15vw;
@@ -443,8 +457,9 @@ h4 {
     }
 
     .about-footer {
-        position: relative;
-        margin: 3vw 0 10vw 0;
+        position: absolute;
+        left: 50%;
+        /* margin: 3vw 0 10vw 0; */
     }
 
     #carouselExampleCaptions {
@@ -455,32 +470,107 @@ h4 {
         margin: 0 10vw 10vw 10vw;
     }
 
-    .d-md-block{
+    .d-md-block {
         display: block;
     }
 
-    .carousel-caption{
+    .carousel-caption {
         top: 40%;
         text-align: -webkit-center !important;
     }
 
-    .project-text{
+    .project-text {
         width: max-content;
         font-size: smaller;
         margin: 0 !important;
         position: relative;
     }
 
-    .project-footer{
+    .project-footer {
         position: absolute;
         left: 50%;
         top: 85%;
         margin: 3vw 0 10vw 0;
     }
 
-    h5{
+    h5 {
         margin-bottom: 0 !important;
     }
 
+    .contact-container {
+        position: absolute;
+        top: 30vw;
+        display: flex;
+        flex-direction: column;
+        width: 80% !important;
+        left: 10%;
+    }
 
+    /* .mb-3 {
+        margin-bottom: 0 !important;
+    } */
+
+    .btn,
+    .btn-light {
+        width: 40%;
+        margin: 3vw 0 0 0;
+        padding: .2vw !important;
+    }
+
+    .form {
+        text-align-last: center;
+    }
+
+    .send {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-text {
+        font-size: medium;
+        line-height: 4vh !important;
+        /* width: fit-content; */
+        margin-bottom: 0;
+    }
+
+    .email-div{
+        display: flex;
+        align-items: center;
+    }
+
+    .phone-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: small;
+    }
+
+    .email{
+        font-size: small;
+        margin-left: 2vw;
+    }
+
+    .form-control{
+        height: 10%;
+        padding: .5vh !important;
+    }
+
+    .form-label{
+        margin: 1vw 0 1vw 0 !important;
+    }
+
+    .contact-footer{
+        position: absolute;
+        left: 50%;
+        top: 88%;
+    }
+
+    .modal-dialog{
+        text-align: -webkit-center;
+    }
+
+    .modal-content{
+        width: 90% !important;
+    }
+    
 }
