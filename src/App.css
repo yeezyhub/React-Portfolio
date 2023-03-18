@@ -455,8 +455,25 @@ h4 {
         margin: 0 10vw 10vw 10vw;
     }
 
-    .carousel-caption, .d-none, .d-md-block{
-        display: contents;
+    .d-md-block{
+        display: block;
     }
+
+    .carousel-caption{
+        top: 40%;
+        text-align: -webkit-center !important;
+    }
+
+    .project-text{
+        width: max-content;
+        font-size: smaller;
+        margin: 0 !important;
+        position: relative;
+    }
+
+    h5{
+        margin-bottom: 0 !important;
+    }
+
 
 }

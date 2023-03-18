@@ -41,84 +41,84 @@ export default function Project() {
                         <Link to="https://squeezy-citrus.herokuapp.com/" target="_blank">
                             <img src={squeezy} className="d-block w-100 blur zoom" alt="Squeezy" />
                         </Link>
-                        <div className="carousel-caption d-none d-md-block">
+                        <div className="carousel-caption d-md-block">
                             <div className='project-title-div'>
                                 <Link to="https://github.com/Bootcamp-Buddies/Squeezy" target="_blank">
                                     <img className='icon zoom-footer project-title-icon' src={githubLogo} alt="GitHub Logo" />
                                 </Link>
                             </div>
                             <h5>Squeezy</h5>
-                            <p>Tangy and sour flavors.</p>
+                            <p className='project-text'>Tangy and sour flavors.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <Link to="https://travelniche.github.io/TravelNiche-App/" target="_blank">
                             <img src={travelNiche} className="d-block w-100 blur zoom" alt="Travel Niche" />
                         </Link>
-                        <div className="carousel-caption d-none d-md-block">
+                        <div className="carousel-caption d-md-block">
                             <div className='project-title-div'>
                                 <Link to="https://github.com/TravelNiche/TravelNiche-App" target="_blank">
                                     <img className='icon zoom-footer project-title-icon' src={githubLogo} alt="GitHub Logo" />
                                 </Link>
                             </div>
                             <h5>Travel Niche</h5>
-                            <p>Your favorite bar locator.</p>
+                            <p className='project-text'>Your favorite bar locator.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <Link to="https://powerful-ravine-90978.herokuapp.com/" target="_blank">
                             <img src={rescuePets} className="d-block w-100 blur zoom" alt="Rescue Pets" />
                         </Link>
-                        <div className="carousel-caption d-none d-md-block">
+                        <div className="carousel-caption d-md-block">
                             <div className='project-title-div'>
                                 <Link to="https://github.com/Bootcamp-Buddies/Rescue-Pets" target="_blank">
                                     <img className='icon zoom-footer project-title-icon' src={githubLogo} alt="GitHub Logo" />
                                 </Link>
                             </div>
                             <h5>Rescue Pets</h5>
-                            <p>Save pets finding them home.</p>
+                            <p className='project-text'>Save pets finding them home.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <Link to="https://yeezyhub.github.io/JavaScript-Quiz/" target="_blank">
                             <img src={javascriptQuiz} className="d-block w-100 blur zoom" alt="Javascript Quiz" />
                         </Link>
-                        <div className="carousel-caption d-none d-md-block">
+                        <div className="carousel-caption d-md-block">
                             <div className='project-title-div'>
                                 <Link to="https://github.com/yeezyhub/JavaScript-Quiz" target="_blank">
                                     <img className='icon zoom-footer project-title-icon' src={githubLogo} alt="GitHub Logo" />
                                 </Link>
                             </div>
                             <h5>JavaScript Quiz</h5>
-                            <p>Test your knowledge.</p>
+                            <p className='project-text'>Test your knowledge.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <Link to="https://yeezyhub.github.io/Scheduler/" target="_blank">
                             <img src={scheduler} className="d-block w-100 blur zoom" alt="Scheduler" />
                         </Link>
-                        <div className="carousel-caption d-none d-md-block">
+                        <div className="carousel-caption d-md-block">
                             <div className='project-title-div'>
                                 <Link to="https://github.com/yeezyhub/Scheduler" target="_blank">
                                     <img className='icon zoom-footer project-title-icon' src={githubLogo} alt="GitHub Logo" />
                                 </Link>
                             </div>
                             <h5>Scheduler</h5>
-                            <p>Never miss a task again.</p>
+                            <p className='project-text'>Never miss a task again.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <Link to="https://yeezyhub.github.io/Weather-Dashboard/" target="_blank">
                             <img src={weatherDashboard} className="d-block w-100 blur zoom" alt="Weather Dashboard" />
                         </Link>
-                        <div className="carousel-caption d-none d-md-block">
+                        <div className="carousel-caption d-md-block">
                             <div className='project-title-div'>
                                 <Link to="https://github.com/yeezyhub/Weather-Dashboard" target="_blank">
                                     <img className='icon zoom-footer project-title-icon' src={githubLogo} alt="GitHub Logo" />
                                 </Link>
                             </div>
                             <h5>Weather Dashboard</h5>
-                            <p>Daily and 5-Day forecast.</p>
+                            <p className='project-text'>Daily and 5-Day forecast.</p>
                         </div>
                     </div>
                 </div>
