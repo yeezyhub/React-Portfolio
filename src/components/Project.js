@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Footer from '../components/Footer';
 
 import rescuePets from "../assets/images/rescue-pets.jpg";
 import travelNiche from "../assets/images/travel-niche.jpg";
@@ -130,6 +131,10 @@ export default function Project() {
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
+            </div>
+
+            <div className='project-footer'>
+            <Footer/>
             </div>
         </div>
     )

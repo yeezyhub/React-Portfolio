@@ -38,10 +38,11 @@ export default function About() {
                     <p>
                         In my free time, I enjoy coding, participating in social activities, playing video games, traveling, cooking, and exploring my creative side by making music and designing graphical content, among other things.
                     </p>
+                    <div className='about-footer'>
+                        <Footer />
+                    </div>
                 </div>
-                <div className='about-footer'>
-                    <Footer />
-                </div>
+
             </div>
         </div>
     )

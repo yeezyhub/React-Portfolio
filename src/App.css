@@ -423,9 +423,9 @@ h4 {
         /* top: 100%; */
         width: max-content;
         /* margin: 5vw; */
-        position: relative;
+        /* position: relative; */
         display: block;
-        left: 31%;
+        /* left: 31%; */
     }
 
     .footer-el {
@@ -438,18 +438,18 @@ h4 {
 
     .home-footer {
         position: absolute;
-        top: 86%;
-        left: 0%;
+        top: 87%;
+        left: 50%;
     }
 
     .about-footer {
         position: relative;
-        left: -24% !important;
+        margin: 3vw 0 10vw 0;
     }
 
     #carouselExampleCaptions {
         position: absolute;
-        top: 30%;
+        top: 28%;
         width: auto;
         left: auto;
         margin: 0 10vw 10vw 10vw;
@@ -469,6 +469,13 @@ h4 {
         font-size: smaller;
         margin: 0 !important;
         position: relative;
+    }
+
+    .project-footer{
+        position: absolute;
+        left: 50%;
+        top: 85%;
+        margin: 3vw 0 10vw 0;
     }
 
     h5{
