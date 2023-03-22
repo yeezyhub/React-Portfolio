@@ -15,7 +15,7 @@ import background from "../assets/images/background.jpg";
 
 export default function Project() {
     return (
-        <div>
+        <div className='page-div'>
 
             {/* Background Image */}
             <div className='bg-project' style={{

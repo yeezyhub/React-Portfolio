@@ -86,7 +86,7 @@ body {
     position: absolute;
     /* justify-content: center; */
     left: 37vw;
-    top: -40vw;
+    top: -39vw;
 }
 
 .carousel-inner {
@@ -117,11 +117,12 @@ body {
     transition: .3s;
 }
 
-.send{
+.send {
     text-align: center;
 }
 
-.btn, .btn-light {
+.btn,
+.btn-light {
     margin: 2vw 10vw 5vw 10vw !important;
     width: 15vw;
     letter-spacing: .3rem;
@@ -223,9 +224,10 @@ h5 {
 
 .download-btn {
     position: absolute;
-    left: 26vw;
-    top: 43.56vw;
+    top: 76%;
+    left: 32%;
 }
+
 
 h4 {
     margin-bottom: 1vw !important;
@@ -262,22 +264,29 @@ h4 {
 
 .navbar-brand:hover,
 .navbar-toggler:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
     transition: .5s;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 .form-control {
     border-radius: 15px !important;
 }
 
-.form-label{
+.form-label {
     margin: 1vw 0 1vw 1vw !important;
 }
 
-.about-footer{
-   position: absolute;
-   left: 26.6%;
-   top: 126.1%;
+.about-footer {
+    position: absolute;
+    left: 26.6%;
+    top: 106.1%;
 }
 
 .required {
@@ -336,14 +345,21 @@ h4 {
     flex-direction: row;
 }
 
+.page-div {
+    height: fit-content;
+}
+
 @media only screen and (max-width: 390px) {
     .container-fluid {
         justify-content: center !important;
         background-color: rgba(0, 0, 0, 0.9);
         padding: 5vw;
-        border-bottom: white .1px solid;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
+        /* border-bottom: white .1px solid; */
+        /* border-image: linear-gradient(#000000, #ffffff) 1; */
+        /* border-width: 1px; */
+        /* border-style: solid; */
+        /* border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;  */
 
     }
 
@@ -392,7 +408,21 @@ h4 {
     }
 
     .navbar-toggler {
-        border: white 1px solid !important;
+        /* border: white 1px solid !important; */
+        border: none !important;
+    }
+
+    .navbar-toggler:focus {
+        border: none;
+    }
+
+    .navbar-toggler:hover {
+        border: none !important;
+    }
+
+    .navbar-toggler {
+        border: none;
+        padding: 1vw !important;
     }
 
     .section-header {
@@ -426,11 +456,18 @@ h4 {
 
     .navbar-brand {
         padding: 2.5vw;
+        margin-right: 5vw !important;
+        transition: .5s;
+
     }
 
-    .bg-about,
+    /* .bg-about,
     .bg-project {
         background-size: contain !important;
+    } */
+
+    .bg-about {
+        height: 300vh;
     }
 
     .footer-div {
@@ -452,7 +489,7 @@ h4 {
 
     .home-footer {
         position: absolute;
-        top: 87%;
+        top: 88%;
         left: 50%;
     }
 
@@ -489,7 +526,7 @@ h4 {
     .project-footer {
         position: absolute;
         left: 50%;
-        top: 85%;
+        top: 86%;
         margin: 3vw 0 10vw 0;
     }
 
@@ -499,7 +536,7 @@ h4 {
 
     .contact-container {
         position: absolute;
-        top: 30vw;
+        top: 17%;
         display: flex;
         flex-direction: column;
         width: 80% !important;
@@ -512,8 +549,8 @@ h4 {
 
     .btn,
     .btn-light {
-        width: 40%;
-        margin: 3vw 0 0 0;
+        width: 50%;
+        margin: 4vw 0 0 0 !important;
         padding: .2vw !important;
     }
 
@@ -533,44 +570,80 @@ h4 {
         margin-bottom: 0;
     }
 
-    .email-div{
+    .email-div {
         display: flex;
         align-items: center;
     }
 
-    .phone-div{
+    .phone-div {
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: small;
     }
 
-    .email{
+    .email {
         font-size: small;
         margin-left: 2vw;
     }
 
-    .form-control{
+    .form-control {
         height: 10%;
         padding: .5vh !important;
     }
 
-    .form-label{
+    .form-label {
         margin: 1vw 0 1vw 0 !important;
     }
 
-    .contact-footer{
+    .contact-footer {
         position: absolute;
         left: 50%;
         top: 88%;
     }
 
-    .modal-dialog{
+    .modal-dialog {
         text-align: -webkit-center;
     }
 
-    .modal-content{
+    .modal-content {
         width: 90% !important;
     }
-    
+
+    .resume-footer {
+        position: absolute;
+        left: 50%;
+        top: 88%;
+    }
+
+    .download-btn {
+        position: absolute;
+        top: 72%;
+        left: 27%;
+        width: 45%;
+    }
+
+    .horizontal-box-bottom {
+        position: absolute;
+        top: 50%;
+        height: auto;
+        left: auto;
+        width: 90% !important;
+        margin: 3vw 5vw 3vw 5vw;
+    }
+
+    .horizontal-box-top {
+        position: absolute;
+        top: 24%;
+        height: auto;
+        left: auto;
+        width: 90% !important;
+        margin: 3vw 5vw 3vw 5vw;
+    }
+
+    .tag {
+        font-size: 10px;
+        padding: auto;
+    }
+
 }

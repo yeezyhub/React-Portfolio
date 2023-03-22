@@ -31,16 +31,7 @@ export default function Contact() {
         } else {
             setMessage(inputValue);
         }
-
-
     }
-
-
-    // (name && email && message) ===! ''
-    // ? $('#target-element').attr('data-bs-target','#myModalSuccess')
-    // : $('#target-element').attr('data-bs-target','#myModalError')
-
-
 
     const handleFormSubmit = (e) => {
         // Preventing the default behavior of the form submit (which is to refresh the page)

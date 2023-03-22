@@ -1,6 +1,7 @@
 import React from 'react';
 import resume from '../assets/resume/yigit-bugra-ocak-resume.pdf';
 import background from "../assets/images/background.jpg";
+import Footer from '../components/Footer';
 
 
 export default function Resume() {
@@ -50,9 +51,11 @@ export default function Resume() {
                 </div>
             </div>
             <a href={resume} download className="download">
-                Download Yigit Bugra Ocak - Resume
                 <button className="btn btn-light download-btn" type="submit">Download</button>
             </a>
+            <div className='resume-footer'>
+                <Footer />
+            </div>
         </div>
     )
 
