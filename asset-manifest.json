@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.d16a213e.css",
-    "main.js": "/React-Portfolio/static/js/main.59c54b95.js",
+    "main.css": "/React-Portfolio/static/css/main.1e6d40f3.css",
+    "main.js": "/React-Portfolio/static/js/main.2a045118.js",
     "static/media/profile-photo.jpg": "/React-Portfolio/static/media/profile-photo.fbcf46648104ac1f0062.jpg",
     "static/media/background.jpg": "/React-Portfolio/static/media/background.b89b1d552971531a84d7.jpg",
     "static/media/travel-niche.jpg": "/React-Portfolio/static/media/travel-niche.22fb7ef3dc1ef4e99b5a.jpg",
@@ -16,11 +16,11 @@
     "static/media/email-icon.png": "/React-Portfolio/static/media/email-icon.ad8ffe5b3a71bb4eb783.png",
     "static/media/stack-overflow-logo.png": "/React-Portfolio/static/media/stack-overflow-logo.2b57c63669410bce761f.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.d16a213e.css.map": "/React-Portfolio/static/css/main.d16a213e.css.map",
-    "main.59c54b95.js.map": "/React-Portfolio/static/js/main.59c54b95.js.map"
+    "main.1e6d40f3.css.map": "/React-Portfolio/static/css/main.1e6d40f3.css.map",
+    "main.2a045118.js.map": "/React-Portfolio/static/js/main.2a045118.js.map"
   },
   "entrypoints": [
-    "static/css/main.d16a213e.css",
-    "static/js/main.59c54b95.js"
+    "static/css/main.1e6d40f3.css",
+    "static/js/main.2a045118.js"
   ]
 }
