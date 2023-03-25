@@ -130,6 +130,23 @@ export default function Contact() {
                         >
                             Send
                         </button>
+
+                        {/* Sent Message  */}
+                    {messageSent && (
+                        <div>
+                            <p className="sent-text">
+                                {messageSent}{" "}
+                                {<img
+                                    alt="send"
+                                    style={{ display: "inline" }}
+                                    src={checkmarkIcon}
+                                    className="send-icon"
+                                    width={32}
+                                    height={32}
+                                />}
+                            </p>
+                        </div>
+                    )}
                     </div>
 
                     {/* Error Message */}
@@ -157,22 +174,7 @@ export default function Contact() {
                         </div>
                     )}
 
-                    {/* Sent Message  */}
-                    {messageSent && (
-                        <div>
-                            <p className="sent-text">
-                                {messageSent}{" "}
-                                {<img
-                                    alt="send"
-                                    style={{ display: "inline" }}
-                                    src={checkmarkIcon}
-                                    className="send-icon"
-                                    width={32}
-                                    height={32}
-                                />}
-                            </p>
-                        </div>
-                    )}
+                    
                 </form>
             </div>
             <div className="contact-footer">

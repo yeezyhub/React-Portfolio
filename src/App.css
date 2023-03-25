@@ -85,7 +85,7 @@ body {
     width: 25vw;
     position: absolute;
     /* justify-content: center; */
-    left: 37vw;
+    left: 37.2vw;
     top: -39vw;
 }
 
@@ -117,18 +117,21 @@ body {
     transition: .3s;
 }
 
-.send {
-    text-align: center;
-}
-
 .btn,
 .btn-light {
     margin: 2vw 10vw 5vw 10vw !important;
     width: 15vw;
     letter-spacing: .3rem;
+    padding: .3vw !important;
     font-weight: 200;
     border-radius: 5vw !important;
 
+}
+
+
+.btn,
+.btn-dark {
+    margin-bottom: 3vw !important;
 }
 
 .btn:hover {
@@ -225,7 +228,7 @@ h5 {
 .download-btn {
     position: absolute;
     top: 76%;
-    left: 32%;
+    left: 33%;
 }
 
 
@@ -308,7 +311,20 @@ h4 {
 
 .sent-text {
     text-align: center;
-    margin-top: .5vw;
+    /* width: max-content; */
+    margin: 0;
+}
+
+.send {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#targeted-element {
+    margin: 2vw 1vw 1vw 1vw !important;
 }
 
 .modal {
@@ -351,41 +367,42 @@ h4 {
 
 .navbar {
     position: absolute !important;
+    padding-right: 0 !important;
 }
 
 /************************************ Media Query for 4K ******************************************/
 
 @media only screen and (min-width: 2560px) {
 
-    *{
+    * {
         font-size: 1.7vw;
     }
 
     .about-footer {
-        top: 125.1% !important;
+        top: 100.1% !important;
     }
 
-    .blur{
+    .blur {
         filter: blur(5.5px);
     }
 
 
-    h5{
+    h5 {
         font-size: 2vw !important;
     }
 
-    .icon{
+    .icon {
         width: 64px;
         height: auto;
     }
 
-    .footer-div{
-        padding-bottom: 2vw;
-        top: 92%;
+    .footer-div {
+        /* padding-bottom: 1vw !important; */
+        top: 93.7%;
     }
 
     .carousel {
-        top: -52vw;
+        top: -48vw;
         width: 40vw;
         left: 30vw;
     }
@@ -396,19 +413,20 @@ h4 {
         width: 70% !important;
     }
 
-    img{
+    img {
         width: 48px;
         height: auto;
     }
 
     .contact-text {
         top: 30vw;
-        font-size: 2vw ;
+        font-size: 2vw;
         line-height: 3vw !important;
         margin: 0 !important;
     }
 
-    .btn, .btn-light{
+    .btn,
+    .btn-light {
         width: 30%;
         padding: .5vw !important;
         border-radius: 5vw !important;
@@ -430,18 +448,33 @@ h4 {
     }
 
     .download-btn {
-        top: 73%;
+        top: 78%;
         left: 33%;
         width: 15%;
     }
 
-    .send{
-        margin-top: 3vw !important;
+    .send {
+        /* margin-top: 3vw !important; */
+        flex-wrap: nowrap;
     }
 
-    .tag{
+    .sent-text{
+        width: max-content;
+    }
+
+    .tag {
         font-size: 35px;
     }
+
+    .modal-content {
+        width: 200% !important;
+    }
+
+    .modal-dialog {
+        margin-left: 30% !important;
+    }
+
+    
 
 
 }
@@ -451,20 +484,20 @@ h4 {
 @media only screen and (max-width: 1440px) {
 
     .about-footer {
-        top: 136.1% !important;
+        top: 121.1% !important;
     }
 
-    .blur{
+    .blur {
         filter: blur(2%);
     }
 
-    .footer-div{
-        padding-bottom: 2vw;
-        top: 92%;
+    .footer-div {
+        padding-bottom: 1vw !important;
+        top: 93%;
     }
 
     .carousel {
-        top: -52vw;
+        top: -48vw;
         width: 40vw;
         left: 30vw;
     }
@@ -482,7 +515,8 @@ h4 {
         margin: 0 !important;
     }
 
-    .btn, .btn-light{
+    .btn,
+    .btn-light {
         width: 25%;
         padding: .5vw !important;
     }
@@ -502,17 +536,20 @@ h4 {
     }
 
     .download-btn {
-        top: 70%;
+        top: 77%;
         left: 32%;
         width: 15%;
     }
-
-    .send{
-        margin-top: 3vw !important;
+    
+    .sent-text{
+        margin-left: 4vw;
     }
-
-    .tag{
+    .tag {
         font-size: 21px;
+    }
+    
+    .form-control{
+        border-radius: 1vw !important;
     }
 
 }
@@ -525,7 +562,7 @@ h4 {
         top: 104.1% !important;
     }
 
-    .footer-div{
+    .footer-div {
         padding-bottom: 2vw;
         top: 92%;
     }
@@ -537,7 +574,7 @@ h4 {
     }
 
     .contact-container {
-        top: 11vw;
+        top: 10vw;
         left: 15vw;
         width: 70% !important;
     }
@@ -549,9 +586,14 @@ h4 {
         margin: 0 !important;
     }
 
-    .btn, .btn-light{
+    .btn,
+    .btn-light {
         width: 30%;
         padding: .5vw !important;
+    }
+
+    #targeted-element{
+        margin: 1vw !important;
     }
 
     .horizontal-box-top {
@@ -575,12 +617,16 @@ h4 {
         width: 20%;
     }
 
-    .send{
+    .send {
         margin-top: 1vw !important;
     }
 
-    .tag{
+    .tag {
         font-size: 12px;
+    }
+
+    .form-control{
+        border-radius: 1.5vw !important;
     }
 
 
@@ -712,6 +758,15 @@ h4 {
         padding: .5vw !important;
     }
 
+    .sent-text {
+        margin: 1vw;
+    }
+
+    .form-control {
+        border-radius: 2vw !important;
+
+    }
+
 }
 
 /************************************ Media Query for Tablet ******************************************/
@@ -784,7 +839,7 @@ h4 {
     }
 
     .about-footer {
-        top: 105.1%;
+        top: 105.1% !important;
     }
 
     .carousel {
@@ -842,8 +897,13 @@ h4 {
         width: 25%;
     }
 
-    .send{
+    .send {
         margin-top: 0 !important;
+    }
+
+    .form-control {
+        border-radius: 2vw !important;
+
     }
 
 }
@@ -1056,6 +1116,10 @@ h4 {
         padding: .5vw !important;
     }
 
+    #targeted-element{
+        margin-top: 2vw !important;
+    }
+
     .form {
         text-align-last: center;
     }
@@ -1075,6 +1139,7 @@ h4 {
     .email-div {
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     .phone-div {
@@ -1092,6 +1157,7 @@ h4 {
     .form-control {
         height: 10%;
         padding: .5vh !important;
+        border-radius: 3vw !important;
     }
 
     .form-label {
