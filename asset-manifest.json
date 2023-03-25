@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.ff8178a3.css",
-    "main.js": "/React-Portfolio/static/js/main.139f4c9f.js",
+    "main.js": "/React-Portfolio/static/js/main.fa0e4a5c.js",
     "static/media/profile-photo.jpg": "/React-Portfolio/static/media/profile-photo.fbcf46648104ac1f0062.jpg",
     "static/media/background.jpg": "/React-Portfolio/static/media/background.b89b1d552971531a84d7.jpg",
     "static/media/travel-niche.jpg": "/React-Portfolio/static/media/travel-niche.22fb7ef3dc1ef4e99b5a.jpg",
@@ -17,10 +17,10 @@
     "static/media/stack-overflow-logo.png": "/React-Portfolio/static/media/stack-overflow-logo.2b57c63669410bce761f.png",
     "index.html": "/React-Portfolio/index.html",
     "main.ff8178a3.css.map": "/React-Portfolio/static/css/main.ff8178a3.css.map",
-    "main.139f4c9f.js.map": "/React-Portfolio/static/js/main.139f4c9f.js.map"
+    "main.fa0e4a5c.js.map": "/React-Portfolio/static/js/main.fa0e4a5c.js.map"
   },
   "entrypoints": [
     "static/css/main.ff8178a3.css",
-    "static/js/main.139f4c9f.js"
+    "static/js/main.fa0e4a5c.js"
   ]
 }
