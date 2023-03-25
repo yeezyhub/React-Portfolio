@@ -1,9 +1,10 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
+// import { HashRouter as Router, Switch, Route} from 'react-router-dom';
 
 import Header from './components/Header.js';
-import Footer from './components/Footer.js';
-import Navigation from './components/Navigation.js';
+// import Footer from './components/Footer.js';
+// import Navigation from './components/Navigation.js';
 import Project from './components/Project.js';
 
 import Home from "./pages/Home.js";
